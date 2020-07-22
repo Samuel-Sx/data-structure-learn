@@ -59,4 +59,4 @@ var numIslands = function (grid) {
     return number
 };
 
-console.log(numIslands([]))
+console.log(numIslands([]));
