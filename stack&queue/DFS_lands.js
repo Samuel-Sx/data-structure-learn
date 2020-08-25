@@ -47,7 +47,7 @@ var numIslands = function (grid) {
     let cols = grid[0].length // 缓存矩阵列数
 
     for (let r = 0; r < rows; r++) { // 遍历行
-        for (let c = 0; c < cols; c++) { // 遍历列
+        for (let c = 0; c < cols; c++) { // 遍历列 
             if (grid[r][c] === '1') { // 如果当前元素为陆地
                 ++number // 岛屿数量+1
                 // 将当前元素作为根节点，开始执行深度优先遍历
